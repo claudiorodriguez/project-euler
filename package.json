@@ -1,0 +1,34 @@
+{
+  "name": "project-euler",
+  "version": "0.0.1",
+  "description": "My own tackling of projecteuler.net problems in ES6",
+  "main": "./src/problems/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register 'test/**/*.spec.js'",
+    "validate": "./node_modules/.bin/eslint './**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/claudiorodriguez/project-euler.git"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "Claudio Rodriguez <cjrodr@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudiorodriguez/project-euler/issues"
+  },
+  "homepage": "https://github.com/claudiorodriguez/project-euler#readme",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2",
+    "mocha": "^2.5.3"
+  }
+}
