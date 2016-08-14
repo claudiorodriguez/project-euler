@@ -1,5 +1,6 @@
 export { default as evenTerms } from './evenTerms';
 export { default as fibonacciUpTo } from './fibonacciUpTo';
+export { default as isEvenlyDivisible } from './isEvenlyDivisible';
 export { default as isMultipleOf } from './isMultipleOf';
 export { default as isPalindrome } from './isPalindrome';
 export { default as largestInteger } from './largestInteger';
